@@ -1,0 +1,13 @@
+[project]
+name = "opendata-mcp"
+version = "0.1.0"
+description = "MCP server for fetching open datasets from BODIK CKAN (data.bodik.jp)"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastmcp>=3.3.1",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+opendata-mcp = "opendata:serve"
