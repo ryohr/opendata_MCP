@@ -7,7 +7,9 @@
 
 | ツール名 | 説明 |
 |---|---|
-| `get_ckan_datasets` | データセットの title と package_id の一覧を返す |
+| `get_ckan_datasets` | データセット全件（author・notes・title・groups・resources など）を返す |
+| `search_ckan_datasets` | キーワードでデータセットを検索し、上位10件を返す |
+| `get_resource_records` | resource_id を指定してリソースのデータ本体（レコード）を取得する |
 
 ## 使い方（Claude Desktop）
 
